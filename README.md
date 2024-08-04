@@ -10,7 +10,7 @@ Esta herramienta solo es compatible con Linux y python2.
 ### Instalación 
 
 ```
-git clone https://github.com/AdrMXR/tools-phishing.git
+git clone https://github.com/Pypi-Project/phishing-tools.git
 ```
 ```
 cd tools-phishing
